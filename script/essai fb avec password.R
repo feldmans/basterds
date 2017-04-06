@@ -17,7 +17,7 @@ library(Rfacebook)
 #get app_id et app_secret at this adress:
 #https://developers.facebook.com/apps/1145902798800625/settings/
 #click show app secret to have a new one. You will have to enter your fb pwd (clue : same as work computer) 
-fb_oauth <- fbOAuth(app_id="1145902798800625", app_secret="25cc433eabcb559c6d8e9f485968c3b5")
+fb_oauth <- fbOAuth(app_id="..........", app_secret="................")
 save(fb_oauth, file="fb_oauth")
 load("fb_oauth")
 #https://developers.facebook.com/tools/explorer/  à renouveler
